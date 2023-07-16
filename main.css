@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+    margin: 0 20px 0 0;
+}
+
+
+.logo-text {
+    font: italic 500 16px 'Roboto';
+}
+
+.header-img {
+    background-image: url("./img/background-header.png");
+    background-size: 33% 100%;
+    height: 250px;
+}
+
+@media (max-width: 500px) {
+    .header-img {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }   
+}
+
+.header-bottom {
+    height: 50px;
+    background-color: #004581;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-login {
+    width: 80px;
+    height: 30px;
+    background-color: #D3D3D3;
+    margin: 0px 30px;
+    text-align: center;
+    font: 500 16px/30px "Montserrat";
+    color: black;
+    border-radius: 10px;
+    border: 3px solid #D3D3D3;
+}
+
+.button-login:hover {
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.main {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.main-left {
+    width: 80%;
+    margin: 10px 20px;
+}
+
+.main-right {
+    width: 20%;
+    margin: 10px 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: green;
+}
