@@ -75,13 +75,49 @@ body {
 }
 
 .main-left {
-    width: 80%;
     margin: 10px 20px;
 }
 
 .main-right {
-    width: 20%;
-    margin: 10px 20px;
+    min-width: 150px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border-left: 10px solid;
+    border-image: repeating-linear-gradient(0deg, #004581, #3bf, #004581 40px) 40;
+}
+
+.menu {
+    font: 500 12px/24px "Montserrat";
+    margin-left: 10px;
+}
+
+.menu-header {
+    font: 500 18px/32px "Montserrat";
+    text-align: center;
+    
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menu-item {
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin: 5px 0px;
+    padding: 5px 5px;
+    text-align: center;
+    min-width: 120px;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    color: 
 }
 
 .footer {
