@@ -54,18 +54,24 @@ body {
 .button-login {
     width: 80px;
     height: 30px;
-    background-color: #D3D3D3;
+    background-color: #b1c9e9;
     margin: 0px 30px;
     text-align: center;
     font: 500 16px/30px "Montserrat";
     color: black;
     border-radius: 10px;
-    border: 3px solid #D3D3D3;
+    border: 3px solid #b1c9e9;
 }
 
 .button-login:hover {
     border: 3px solid black;
+    border-radius: 10px;
     cursor: pointer;
+}
+
+.button-login:active {
+    border: 3px solid #b1c9e9;
+    border-radius: 10px;
 }
 
 .main {
